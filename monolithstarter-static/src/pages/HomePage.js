@@ -6,6 +6,7 @@ class HomePage extends Component {
     return (
         <div className="home-page">
           <Link to="/hello">Click to see hello message</Link>
+          <Link to="/dup">Click to see dup message</Link>
         </div>
     );
   }
